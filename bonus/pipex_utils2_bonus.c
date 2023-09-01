@@ -6,7 +6,7 @@
 /*   By: bbresil <bbresil@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/25 22:18:42 by bbresil           #+#    #+#             */
-/*   Updated: 2023/07/26 13:40:08 by bbresil          ###   ########.fr       */
+/*   Updated: 2023/09/01 11:06:03 by bbresil          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,20 +40,6 @@ bool	ft_argv_has_slash(t_env *env, char **argv)
 		return (true);
 	return (false);
 }
-
-// bool	ft_argv_has_slash(t_env *env, char **argv)
-// {
-// 	int	i;
-
-// 	i = 0;
-// 	while (i < env->arc - 1)
-// 	{
-// 		if (ft_strchr(argv[i + 2], '/'))
-// 			return (true);
-// 		i ++;
-// 	}
-// 	return (false);
-// }
 
 bool	ft_cmd_has_slash(char *cmd)
 {
